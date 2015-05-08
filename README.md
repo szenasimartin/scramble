@@ -6,27 +6,23 @@ Can you read the following paragraph?
 
 Let's create something similar that can scramble the words in sentences so that they remain legible. 
 
-To simplify the problem of scrambling it would not use random order, but just reverse the inner letters of the word, while keeping the first and last ones in place
+To simplify the problem of scrambling it would not use random order, but just reverse the inner letters of the word, while keeping the first and last ones in place.
 
 ## Examples
+
 ```
 t hin g -> t nih g
 w hol e -> w loh e
 i mportan t -> i natropm t
 p roble m -> p elbor m
 ```
+
 ## How
 
-Implementation can be done in both Java, C++ and Python. It is important to provide unit tests that prove the working solution.
+Implementation can be done in either Java, C++ or Python. It is important to provide unit tests that prove the working solution.
 
-More about unit test: http://en.wikipedia.org/wiki/Unit_testing
+More about unit tests: http://en.wikipedia.org/wiki/Unit_testing
 
-You can choose any kind of framework that suits you the best. Please, provide the necessary build script that compiles your solution and runs the tests with one command.
+You can choose any kind of framework that suits you the best. Please provide the necessary build script that compiles your solution and runs the tests with one command. (Makefile, a simple bash script, or whatever you know. The point is to be able to compile and run tests with a single command.)
 
-The problem itself is not difficult. With this excercise we want to emphasise the whole development cycle for a micro project. This means having tests, having a build system, and writing clean and readable code.
-
-
-
-
-
-
+The problem itself is not difficult. In this exercise, the emphasis is on showing the whole development cycle for a micro project. This means having tests, having a build system, and writing clean and readable code.
